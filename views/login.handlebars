@@ -1,46 +1,49 @@
-  <main>
+<main>
   <header>
     <div>
       <h1 class="logo"><a href="/">RAZA</a></h1>
     </div>
     <div class="form-login">
-      <form>
-        <input type="text" name="term" placeholder="SEARCH"/>
-        {{!-- <button type="submit" >Search</button> --}}
+      <form method="post" action="/search" class="search">
+        <input type="text" name="term" placeholder="SEARCH" />
       </form>
       <a href="#">HELP</a>
-       <a class="dropdown-item" href="#">CART(0)</a>
+      <a class="dropdown-item" href="#">CART(0)</a>
     </div>
   </header>
-<div class="login-row">
+  <div class="login-row">
 
-        <form method="post" action="/login" class="login">
-                <h1>LOGIN</h1>
-            <!-- USERNAME -->
-            <input class="form-control"
-                id="email"
-                type="text"
-                name="username"
-                placeholder="EMAIL"/>
+    <form method="post" action="/login" class="login">
+      <h1>LOGIN</h1>
+      <!-- USERNAME -->
+      <input class="form-control" id="email" type="text" name="username" placeholder="EMAIL" />
 
-            <!-- PASSWORD -->
-            <input class="form-control"
-            id="password-content"
-            type="password"
-            name="password"
-            placeholder="PASSWORD"/>
+      <!-- PASSWORD -->
+      <input class="form-control" id="password-content" type="password" name="password" placeholder="PASSWORD" />
 
-            <button type="submit">LOG IN</button>
-        </form>
+      <button type="submit">LOG IN</button>
+    </form>
 
-        <div class="signup">
-          <h1>SIGNUP</h1>
-          <p>If you do not have any account please sign up</p>
-          <a href="/sign-up">Create new account</a>
+    <div class="signup">
+      <h1>SIGNUP</h1>
+      <p>If you do not have any account please sign up</p>
+      <a href="/sign-up">Create new account</a>
     </div>
+  </div>
+  </div>
+  {{! footer }}
+  <footer>
+    <div class="newsletter">
+      <h3>SIGN UP FOR OUR NEWSLETTER</h3>
+      <input placeholder="ENTER YOUR EMAIL HERE" />
+    </div>
+    <div>
+      <ul>
+        <li><a href="https://www.instagram.com/zara/" target="_blank" id="" class="">INSTAGRAM</a></li>
+        <li><a href="https://www.facebook.com/Zara" target="_blank" id="" class="">FACEBOOK</a></li>
+        <li><a href="https://twitter.com/zarausa" target="_blank" id="" class="">TWITTER</a></li>
+      </ul>
     </div>
 
-    
-    </div>
+  </footer>
 </main>
-

@@ -5,6 +5,7 @@
     "main": "app.js",
     "dependencies": {
         "@handlebars/allow-prototype-access": "^1.0.5",
+        "@splidejs/splide": "^2.4.21",
         "axios": "^0.21.1",
         "bcryptjs": "^2.4.3",
         "cookie-parser": "^1.4.5",
@@ -19,7 +20,6 @@
         "tenorjs": "^1.0.8",
         "unirest": "^0.6.0"
     },
-    "devDependencies": {},
     "scripts": {
         "start": "node app.js",
         "dev": "nodemon app.js",
