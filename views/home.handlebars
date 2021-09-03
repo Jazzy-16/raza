@@ -1,0 +1,66 @@
+<!-- home.handlebars -->
+<main>
+  <header>
+    <div>
+      <h1 class="logo"><a href="/">RAZA</a></h1>
+    </div>
+    {{#if currentUser}}
+    <div class="form-login">
+    Hi {{currentUser}} !
+      
+      {{else}}
+      
+      <div style="display:flex">
+      <form method="post" action="/search" class="search">
+        <input type="text" name="term" placeholder="SEARCH"/>
+      </form>
+      <a href="/login">LOG IN</a>
+      </div>
+    </div>
+    {{/if}}
+  </header>
+{{!--
+
+    <hr class="dropdown-divider">
+              
+     
+   </ul> --}}
+   {{!-- <div>
+          
+</div> --}}
+
+  <section>
+    <img src="/images/runway-fashion.jpg" alt="model"/>
+  </section>
+
+  {{! footer }}
+  <footer>
+    <div class="newsletter">
+      <h3>SIGN UP FOR OUR NEWSLETTER</h3>
+      <input placeholder="ENTER YOUR EMAIL HERE" />
+    </div>
+    <div>
+<ul>
+      <li><a
+          href="https://www.instagram.com/zara/"
+          target="_blank"
+          id=""
+          class=""
+        >INSTAGRAM</a></li>
+      <li><a
+          href="https://www.facebook.com/Zara"
+          target="_blank"
+          id=""
+          class=""
+        >FACEBOOK</a></li>
+      <li><a
+          href="https://twitter.com/zarausa"
+          target="_blank"
+          id=""
+          class=""
+        >TWITTER</a></li>
+    </ul>
+    </div>
+    
+  </footer>
+</main>

@@ -1,0 +1,172 @@
+:root {
+    --color-main-000: #fff;
+    --color-main-005: #f2f2f2;
+    --color-main-010: #e5e5e5;
+    --color-main-020: #ccc;
+    --color-main-040: #999;
+    --color-main-060: #666;
+    --color-main-080: #333;
+    --color-main: #000;
+    --color-emphasis: #ec0909;
+    --color-emphasis-background: #ffd8d6;
+    --color-notification: #ff930b;
+    --color-notification-background: #fff4e7;
+    --color-done: #4cd964;
+    --color-sales: #ffe800;
+    --color-recommendation: #d4e5f7;
+}
+
+html,
+body {
+    font-family: 'Neue-Helvetica', 'Helvetica', 'Arial', Sans-Serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 10px;
+    position: relative;
+    top: 150px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+}
+.form-login {
+    display: flex;
+    align-items: center;
+
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+
+}
+
+header input {
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+header a {
+    border: none;
+    background: transparent;
+    text-decoration: none;
+    color: var(--color-main);
+    margin-left: 60px;
+    cursor: pointer;
+}
+.logo {
+    font-size: 8em;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    text-align: center;
+}
+footer {
+    margin-top: 80px;
+}
+footer .newsletter {
+    width: 400px;
+    margin-bottom: 80px;
+}
+footer input {
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    width: 100%;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-right: 10px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: var(--color-main);
+}
+
+/* LOGIN */
+
+.login-row {
+    display: flex;
+    padding: 0 65px;
+   
+}
+.login-row .login {
+    width: 360px;
+    padding: 5px;
+
+} 
+.login input {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+.login-row button {
+    border: none;
+    padding: 10px 60px;
+    background-color:#000;
+    color: #fff;
+    margin-top: 50px;
+}
+.login-row .signup {
+    width: 360px;
+    margin-left: 40px;
+    padding: 5px;
+} 
+
+.signup p {
+    margin-bottom: 110px;
+}
+.signup a {
+    border: none;
+    padding: 10px 60px;
+    background-color:#000;
+    color: #fff;
+    text-decoration: none;
+}
+
+.signUp-row {
+    display: flex;
+    padding: 0 65px;
+   
+}
+.signUp-row .signup {
+    width: 360px;
+    padding: 5px;
+
+} 
+.lSignUp input {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+.signUp-row button {
+    border: none;
+    padding: 10px 60px;
+    background-color:#000;
+    color: #fff;
+    margin-top: 50px;
+}
+.signUp-row .signup {
+    width: 360px;
+    margin-left: 40px;
+    padding: 5px;
+} 
