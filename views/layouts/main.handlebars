@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8">
-    <title>RAZA</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>RAZA</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="home.css">
+  <!-- slider css -->
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+  <!-- slider CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
 </head>
 
 <body>
 
   {{{body}}}
 
+
+  {{!-- slider script --}}
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      new Splide('#splide', {
+        type: 'fade',
+        rewind: true,
+      }).mount();
+    });
+  </script>
 </body>
+
 </html>
